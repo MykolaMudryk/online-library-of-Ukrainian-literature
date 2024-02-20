@@ -1,0 +1,54 @@
+@media only screen and (max-width: 960px) {
+    body{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    body{
+        font-size: 11px;
+    }
+    .left {
+
+max-width: 100%;
+        margin: 80px 10px
+    }
+}
+
+@media (max-width:680px){	
+	.menu ul{
+		position: absolute;
+		right: 0;
+		top: 20px;
+		width: 180px;
+	}
+	
+	
+.menu li{
+	display: none;
+	padding: 0 0 15px;
+	background-color: beige;
+	
+
+}
+	.menu li:first-child:after{
+		content: none
+	}
+li.bar{
+	display: inline-block;
+	background-color: transparent;
+	padding: 0 10px 20px;
+	
+}
+.menu{
+	line-height: normal;
+	position: relative;
+}
+.menu:hover li{
+display: block;
+  }
+}

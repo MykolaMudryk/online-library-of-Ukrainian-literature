@@ -1,0 +1,176 @@
+
+body{
+margin: 0;
+font-family: 'Comfortaa', cursive;
+}
+h1,h2,h3{
+font-family: 'Pacifico', cursive;
+
+}
+ul{
+    margin: 0;
+	padding: 0;
+}
+.logo {
+    width: 159.01px;
+    height: 128.99px;
+    text-align: left;
+    position: absolute;
+   z-index: 1;
+}
+.background {
+    width:1262px;
+    height: 530px;
+
+}
+
+.menu {
+	background-color: #63400e;
+	text-align: right;
+	padding-right: 20px;
+	height: 75px;
+    text-decoration: none;
+    color: #89633c;
+    line-height: 75px;
+}
+.menu li{
+display: inline-block;
+    margin: 0 5px;
+}
+.menu a{
+text-decoration: none;
+    text-transform: uppercase;
+    color: #efbc9b;
+}
+.main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+img{
+width: 100%;
+}
+.div {
+    border-color:  black;
+    border-width: 2px;
+}
+
+.title {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+.title h2{
+    padding: 10px;
+    border: solid;
+}
+
+
+
+.Color {
+    background-color: #a37c40;
+}
+
+
+
+.clear {
+    clear: both;
+}
+
+.description {
+    width: 33%;
+    float: left;
+    
+}
+
+.Frankfurt {
+	width: 188px;
+	height: 149px;
+}
+
+.Untitled {
+	width: 120px;
+	height: 151px;
+}
+
+.pic {
+	
+}
+
+.news {
+	width: 33.33%;
+	float: left;
+	text-align: center;
+	box-sizing: border-box;
+	padding:0 10px ;
+}
+.menu li:after{
+   content:"|";
+    color: #909692;
+    padding: 0 3px 0 10px;
+}
+.menu li:last-child:after{
+    content: none;
+}
+.menu a:hover{
+    color: #f2f5ea;
+    border-bottom: solid #e75a7c 3px;
+}
+    #map {
+    width: 50%;
+    height: 330px;
+   margin: 30px 10px;
+    float: right;
+    box-sizing: border-box;
+}
+input, textarea {
+    margin: 0 10px 10px 0;
+    width: 100%;
+    padding: 5px 0;
+}
+.forma {
+    width: 45%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.contacts {
+    background-color:firebrick;
+    overflow: hidden;
+}
+.footer {
+    background-color: #2c363f;
+    height: 50px;
+    color:gainsboro;
+    font-size: 0.8em;
+   padding-top: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+input[type="submit"]{
+    width: auto;
+    padding: 5px 20px;
+    border: none;
+    background-color:cadetblue;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.2em;
+    float: right;   
+    margin-right: 0;
+}
+
+.right {
+    float: right;
+}
+
+
+
+
+li.bar {
+	display: none;
+}
+
+.contact {
+font-family: 'Pacifico', 'cursive';
+	font-size: 20px;
+}
